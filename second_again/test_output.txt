@@ -1,0 +1,14 @@
+Running LinkedList tests...
+Initial empty state: PASSED
+Append operation: PASSED
+Prepend operation: PASSED
+Remove front operations: PASSED
+Exception handling: PASSED
+Copy constructor: PASSED
+Clear operation: PASSED
+Operator overloads: PASSED
+Comparison operators: PASSED
+Multiple objects: PASSED
+ToString output: PASSED
+Edge cases: PASSED
+All tests completed successfully!
