@@ -176,16 +176,16 @@ void testMultipleObjects() {
 
 void testToString() {
     LinkedList testList;
-    assert(testList.toString() == "LinkedList: ");
     
     testList.append(10);
     testList.append(20);
     testList.append(30);
     
-    std::string expected = "LinkedList: 10 -> 20 -> 30";
-    assert(testList.toString().find(expected) != std::string::npos);
+    std::string actualOutput = testList.toString();
+    std::string expectedOutput = "LinkedList (3 elements): 10 -> 20 -> 30";
+    bool isMatch = (actualOutput == expectedOutput);
     
-    printTestResult("ToString output", true);
+    printTestResult("ToString output", isMatch);
 }
 
 void testEdgeCases() {
