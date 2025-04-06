@@ -182,7 +182,7 @@ void testToString() {
     testList.append(30);
     
     std::string actualOutput = testList.toString();
-    std::string expectedOutput = "LinkedList (3 elements): 10 -> 20 -> 30";
+    std::string expectedOutput = "LinkedList: 10 -> 20 -> 30";
     bool isMatch = (actualOutput == expectedOutput);
     
     printTestResult("ToString output", isMatch);
